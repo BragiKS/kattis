@@ -1,0 +1,1 @@
+print((1 if (B:=int(input())) > 0 else 4) if (A:=int(input())) > 0 else (2 if (B:=int(input())) > 0 else 3))

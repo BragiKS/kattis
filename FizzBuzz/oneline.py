@@ -1,0 +1,1 @@
+print('\n'.join((lambda fizz, buzz, n: ['FizzBuzz' if i % fizz == 0 and i % buzz == 0 else 'Fizz' if i % fizz == 0 else 'Buzz' if i % buzz == 0 else str(i) for i in range(1, n + 1)])(*map(int, input().split()))))

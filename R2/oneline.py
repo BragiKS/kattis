@@ -1,0 +1,1 @@
+print((lambda R1, S: 2*S-R1)(*map(int, input().split())))
