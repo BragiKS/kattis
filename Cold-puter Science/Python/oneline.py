@@ -1,0 +1,1 @@
+(lambda n, T: print(sum(1 if t < 0 else 0 for t in T)))(input(), map(int, input().split()))

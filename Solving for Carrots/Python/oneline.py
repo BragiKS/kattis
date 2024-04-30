@@ -1,0 +1,1 @@
+print((lambda N, P: P)(*map(int, input().split())))

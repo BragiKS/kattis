@@ -1,0 +1,1 @@
+[print(k, end="") if k.isupper() else None for k in input()]

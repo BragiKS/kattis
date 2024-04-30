@@ -6,7 +6,7 @@ for i in range(N+M):
     if i < N:
         G.append(x)
     else:
-        c += 1 if x == G[c] else 0
+        c += 1 if x in G else 0
 
 _ = map(int, input().split())
 print(c)

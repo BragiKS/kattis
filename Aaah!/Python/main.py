@@ -1,0 +1,1 @@
+(lambda A, B: print("go") if len(A) >= len(B) else print("no"))(input(), input())
